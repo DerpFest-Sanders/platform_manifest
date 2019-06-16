@@ -14,7 +14,15 @@ repo init -u git://github.com/derpfest-sanders/platform_manifest.git -b pie
 ```
 Then to sync up:
 ```bash
-repo sync -c -f -j$( nproc --all ) --force-sync --no-clone-bundle --no-tags
+repo sync --current-branch --no-tags --no-clone-bundle --optimized-fetch --force-broken 
+--force-sync -j24 --quiet
+
+```
+
+Syncing/Cloning required Trees and files
+
+```bash
+. buildscript/derpscript.sh
 ```
 
 Building the source

@@ -152,5 +152,8 @@
   <project path="vendor/pixelstyle" name="platform_vendor_pixelstyle" remote="derp" />
   <project path="packages/apps/Playground" name="PixelExperience/packages_apps_Playground" remote="gitlab" revision="pie" />
   <project path="packages/apps/WallpapersBReel2018" name="PixelExperience/packages_apps_WallpapersBReel2018" remote="gitlab" revision="pie" />
+  
+  <!--Build Script -->
+  <project path="buildscript" name="derpfest-sanders/build-scripts" remote="github" revision="master" />
 </manifest>
 
